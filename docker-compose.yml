@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  dnp_vpn:
+    build: ./build
+    image: dappnode/dnp_livepeer
+    container_name: dnp_livepeer  
